@@ -57,7 +57,7 @@ heros = ['Batman', 'Superman', 'Spiderman', 'Wolverine', 'Deadpool']
 # for n in nums:
 #     my_set.add(n)
 # print my_set
-
+my_set = {n for n in nums}
 
 # Generator Expressions
 # I want to yield 'n*n' for each 'n' in nums
@@ -71,3 +71,4 @@ nums = [1,2,3,4,5,6,7,8,9,10]
 
 # for i in my_gen:
 #     print i
+my_gen = (n*n for n in nums)
